@@ -41,7 +41,7 @@ public class Factorial {
 				return num;
 			}
 		}
-		System.out.println("Please Enter valid Input as number between 1 and 10 only, both inclusive");
+		this.printStream.print("Please Enter valid Input as number between 1 and 10 only, both inclusive");
 		scanner.close();
 		return -1;
 		//YOUR CODE ENDS HERE	
